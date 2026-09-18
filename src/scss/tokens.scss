@@ -1,0 +1,120 @@
+$breakpoints: (
+    tablet: 768px,
+    large-desktop: 1920px,
+);
+
+// SIZE TOKENS
+
+$size-05: 0.25rem; // 4px
+$size-1: 0.5rem; // 8px
+$size-2: 1rem; // 16px
+$size-3: 1.5rem; // 24px
+$size-4: 2rem; // 32px
+$size-5: 2.5rem; // 40px
+$size-6: 3rem; // 48px
+$size-7: 3.5rem; // 56px
+$size-8: 4rem; // 64px
+$size-9: 4.5rem; // 72px
+$size-10: 5rem; // 80px
+$size-11: 5.5rem; // 88px
+$size-12: 6rem; // 96px
+$size-13: 6.5rem; // 104px
+$size-14: 7rem; // 112px
+$size-15: 7.5rem; // 120px
+
+// BORDER RADIUS / CORNERS
+
+$corner-extra-small: 0.25rem; // 4px
+$corner-small: 0.5rem; // 8px
+$corner-medium: 0.75rem; // 12px
+$corner-large: 1rem; // 16px
+$corner-extra-large: 1.5rem; // 24px
+$corner-full: 624.9375rem; // 9999px
+
+// BUTTON PADDING
+
+$btn-large-padding: 1.5rem 1rem; // 24px 16px
+$btn-medium-padding: 1.25rem 0.625rem; // 20px 10px
+$btn-small-padding: 1rem 0.5rem; // 16px 8px
+$btn-icon-padding: 0.5rem; // 8px
+
+// SHADOWS
+
+$shadow-level-1: 0.25rem 0.25rem $on-primary; // 4px 4px
+$shadow-level-2: 0.375rem 0.375rem $on-primary; // 6px 6px
+$shadow-level-3: 0.5rem 0.5rem $on-primary; // 8px 8px
+
+// Font sizes
+$display-large: 3.5rem; // 56px
+$display-medium: 2.25rem; // 36px
+$display-small: 1.5rem; // 24px
+
+$headline-large: 2rem; // 32px
+$headline-medium: 1.5rem; // 24px
+$headline-small: 1.25rem; // 20px
+
+$body-large: 1.125rem; // 18px
+$body-medium: 1rem; // 16px
+$body-small: 0.875rem; // 14px
+
+$label-extra-large: 1rem; // 16px
+$label-large: 0.875rem; // 14px
+$label-medium: 0.75rem; // 12px
+$label-small: 0.625rem; // 10px
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+// Font families
+$font-family-inter: 'Inter', sans-serif;
+$font-family-roboto: 'Roboto', sans-serif;
+
+// BASE
+
+$white: #ffffff;
+$black: #000000;
+
+// GENERAL
+
+$bg: #f9f8f3;
+$on-bg: #5f5d75;
+$on-bg-low: #737380;
+
+$bg-footer: #1e1b3a;
+$bg-footer-low: #2a264f;
+$bg-footer-lowest: #3c376e;
+
+$on-bg-footer: #b8b5c9;
+
+$surface: #fff8e5;
+$surface-low: #fffcf5;
+
+$primary: #ffd02b;
+$primary-low: #fde047;
+$primary-high: #e5bb00;
+
+$on-primary: #242145;
+
+$secondary: #f0eeff;
+$tertiary: #3a2ebf;
+
+$like: #f45b4b;
+$error: #b3261e;
+
+$price-free: #069a8f;
+
+// BORDERS
+
+$outline: #e5e7eb;
+$outline-variant: #d2d2d2;
+
+// ADDITIONAL / AVATARS
+
+$avatar-random-1: #e9eef6;
+$avatar-random-2: #a3e2c9;
+$avatar-random-3: #bce3ff;
+$avatar-random-4: #ffc6ff;
+$avatar-random-5: #e8dff5;
