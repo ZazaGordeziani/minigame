@@ -1,0 +1,30 @@
+@use '../../../scss/tokens' as *;
+.mobile-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $bg;
+    height: $size-8;
+    border-bottom: 2px solid $on-primary;
+    padding: $size-2;
+
+    &__brand {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: $size-1;
+    }
+}
+.mobile-header__text {
+    font-family: $font-family-inter;
+    font-weight: $font-weight-bold;
+    font-size: $headline-small;
+    color: $on-primary;
+}
+
+.mobile-header__menu-button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+}

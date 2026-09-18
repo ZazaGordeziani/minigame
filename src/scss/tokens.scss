@@ -1,3 +1,46 @@
+//reset
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 $breakpoints: (
     tablet: 768px,
     large-desktop: 1920px,
@@ -38,13 +81,6 @@ $btn-medium-padding: 1.25rem 0.625rem; // 20px 10px
 $btn-small-padding: 1rem 0.5rem; // 16px 8px
 $btn-icon-padding: 0.5rem; // 8px
 
-// SHADOWS
-
-$shadow-level-1: 0.25rem 0.25rem $on-primary; // 4px 4px
-$shadow-level-2: 0.375rem 0.375rem $on-primary; // 6px 6px
-$shadow-level-3: 0.5rem 0.5rem $on-primary; // 8px 8px
-
-// Font sizes
 $display-large: 3.5rem; // 56px
 $display-medium: 2.25rem; // 36px
 $display-small: 1.5rem; // 24px
@@ -118,3 +154,11 @@ $avatar-random-2: #a3e2c9;
 $avatar-random-3: #bce3ff;
 $avatar-random-4: #ffc6ff;
 $avatar-random-5: #e8dff5;
+
+// SHADOWS
+
+$shadow-level-1: 0.25rem 0.25rem $on-primary; // 4px 4px
+$shadow-level-2: 0.375rem 0.375rem $on-primary; // 6px 6px
+$shadow-level-3: 0.5rem 0.5rem $on-primary; // 8px 8px
+
+// Font sizes
